@@ -10,6 +10,6 @@ class Solution {
                 return length;
             }
         }
-        return 1;
+        return length;
     }
 }
