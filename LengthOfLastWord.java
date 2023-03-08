@@ -6,6 +6,8 @@ class Solution {
             p--;
             if( s.charAt(p) != ' ') {
                 length++;
+            } else if (length > 0) {
+                return length;
             }
         }
         return 1;
