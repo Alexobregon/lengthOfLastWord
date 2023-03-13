@@ -5,7 +5,7 @@ class Solution {
         while(p > 0){ // loop through string backwards
             p--;
             if( s.charAt(p) != ' ') { // if the character is not a space
-                length++;
+                length++; // increment word length
             } else if (length > 0) {
                 return length;
             }
