@@ -10,6 +10,6 @@ class Solution {
                 return length; // return the length of the last word
             }
         }
-        return length;
+        return length;  // return length of last word, or 0 if no word found
     }
 }
