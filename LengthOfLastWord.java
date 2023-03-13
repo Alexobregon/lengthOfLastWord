@@ -6,7 +6,7 @@ class Solution {
             p--;
             if( s.charAt(p) != ' ') { // if the character is not a space
                 length++; // increment word length
-            } else if (length > 0) {
+            } else if (length > 0) { // if we've encountered a space and have already counted some word characters
                 return length;
             }
         }
